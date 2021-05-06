@@ -1,0 +1,17 @@
+.apply-button {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #F1EDE6;
+  padding: 10px 20px;
+  border-radius: 20px;
+  color: rgb(63, 63, 63);
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 0.8em;
+}
+
+.apply-button:hover {
+  transform: scale(1.05);
+  opacity: 0.8;
+}

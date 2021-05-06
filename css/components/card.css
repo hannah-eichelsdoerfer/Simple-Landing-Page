@@ -1,0 +1,47 @@
+.banner {
+  background-size: cover;
+  background-position: top;
+  height: 430px;
+  color: #FACA0F;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2px;
+}
+
+/* .description {
+  background-color: rgba(85, 85, 85, 0.267);
+  width: 100%;
+} */
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.card {
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgb(230 230 230);
+  padding: 20px;
+  border: 1px solid rgb(230,230,230);
+  width: 200px;
+  margin: 20px 0;
+  transition: 0.5s ease;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  opacity: 0.8;
+}
+
+.card img {
+  width: 100px;
+}
+
+@media (min-width: 1280px) {
+  .locations-card {
+    width: 90%;
+  }
+}
