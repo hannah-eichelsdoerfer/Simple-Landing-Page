@@ -6,8 +6,8 @@
   display: flex;
   align-items: center;
   letter-spacing: 2px;
+  background-image: linear-gradient(135deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.2) 50%), url('https://bit.ly/3vTcH3b');
 }
-
 /* .description {
   background-color: rgba(85, 85, 85, 0.267);
   width: 100%;
